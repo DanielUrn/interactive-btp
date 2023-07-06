@@ -1,0 +1,809 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  line-height: 1.5;
+}
+
+p,
+span {
+  text-align: left;
+}
+
+input {
+  height: 100px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.light-btn {
+  border-radius: 8.7px;
+  color: #a4080e;
+  background-color: #fff;
+  border: none;
+  font-size: 2vw;
+}
+
+.red-btn {
+  border-radius: 14px;
+  width: auto;
+  background-color: #a4080e;
+  color: #fff;
+  font-size: 1.15em;
+}
+
+.call-to-action {
+  background-image: url(../img/upper-banner-vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(255, 67, 67, 0.8);
+  background-position: center;
+}
+
+.call-to-action > .col > p {
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.call-to-action > .col > button {
+  color: #a4080e;
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+.call-to-action > .col > p > span {
+  font-weight: 900;
+  font-size: 5vw;
+}
+
+.main-banner {
+  min-height: 60vh;
+}
+
+.red-banner {
+  background-color: #a4080e;
+  color: #fff;
+  height: auto;
+  padding: 3em;
+}
+
+.navbar {
+  padding: 2em;
+  background-color: #fff;
+}
+
+.nav-link {
+  font-size: 1.5vw;
+  border-radius: 14px;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  background: url(../img/buildings.png) no-repeat;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.hoover-link:hover {
+  background-color: #a4080e;
+  border-radius: 14px;
+  color: #fff;
+}
+
+.footer-bg {
+  width: 100%;
+  height: auto;
+  background-color: rgba(23, 22, 32, 1);
+}
+
+.linear-gradient {
+  background: url(../img/linear-gradient.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-banner {
+  min-height: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.bg-image {
+  background-image: url(../img/waves-vector.png);
+}
+
+.white-text {
+  color: #fff;
+}
+
+.blue-text {
+  color: #171620;
+}
+
+.red-text {
+  color: #a4080e;
+}
+
+.hero {
+  background: url(../img/main-banner-1440.png);
+  background-size: cover;
+  background-position: top;
+  min-height: 60vh;
+}
+
+.intro {
+  margin-left: 4vw;
+}
+
+.intro button {
+  font-size: 1.5vw;
+  padding: 10px 10px;
+  font-weight: 500;
+}
+
+.intro h1,
+.intro p {
+  font-size: 2vw;
+}
+
+.intro p {
+  font-size: 1.5vw;
+  width: 90%;
+}
+
+.intro span {
+  font-size: 3vw;
+  font-weight: 900 !important;
+}
+
+.how {
+  line-height: normal;
+}
+
+.how h2 {
+  font-size: 1.5vw;
+}
+
+.how p {
+  font-size: 1vw;
+  line-height: normal;
+}
+
+.lead p {
+  text-align: justify;
+  font-size: 2vw;
+}
+
+.lead h1 {
+  font-size: 3vw;
+  font-weight: 800 !important;
+}
+
+.lead li {
+  font-size: 2vw;
+  font-weight: 800 !important;
+}
+
+.bg-red {
+  background-color: #a4080e;
+}
+
+.rounded {
+  border: 0.27px solid #fff;
+  border-radius: 34px !important;
+}
+
+.rounded h2 {
+  font-size: 2vw;
+  margin-bottom: 0;
+}
+
+.red-input-field {
+  background-color: rgba(221, 39, 45, 0.2);
+}
+
+.form {
+  background: url(../img/waves-vector.png) no-repeat;
+  box-shadow: inset 0 0 0 10000px rgba(164, 8, 14, 0.7);
+  background-size: cover;
+  background-position: center;
+}
+
+.form h1 {
+  font-size: 3vw;
+}
+
+.form h2 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.form-floating label {
+  font-size: 2vw;
+  padding: 0;
+}
+
+.form-floating label::after {
+  color: gray !important;
+  background-color: transparent !important;
+}
+
+.form-floating input {
+  height: 8vw !important;
+  font-size: 2vw;
+}
+
+.virtual-assistant-hero {
+  background-image: url(../img/VA-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.virtual-assistant-hero h2 {
+  font-size: 2vw;
+}
+
+.virtual-assistant-hero li {
+  font-size: 1vw;
+}
+
+.virtual-assistant-hero img {
+  width: 1vw;
+}
+
+.hero-left-banner > div > div {
+  height: 100%;
+}
+
+.hero-left-banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 65%;
+}
+
+.hero-left-banner ul:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  background: #a4080e;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  height: 100%;
+  border-radius: 40px;
+}
+.hero-left-banner ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  list-style-position: inside;
+}
+.hero-left-banner ul li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #a4080e;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  border-radius: 10px;
+}
+
+.hero-left-banner > div > div {
+  height: initial;
+}
+
+.red-accent {
+  background-color: #a4080e;
+  color: #fff;
+  padding: 3px;
+}
+
+.nav-item::hover {
+  background-color: #a4080e;
+  color: #fff;
+}
+
+.dark-blue-bg {
+  background-color: #171620;
+}
+
+.red-line {
+  height: 4vh;
+  border-radius: 10px;
+  width: 1vw;
+  background-color: #a4080e;
+}
+
+.caracteristics-banner {
+  background: url(../img/map-vector.png) no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.caracteristics-banner h1 {
+  font-size: 3.5vw;
+}
+
+.footer img {
+  width: 70%;
+}
+
+.footer i {
+
+  font-size: 35px;
+}
+
+/*//// RESPONSIVE IMAGES ////*/
+
+@media (max-width: 950px) {
+  .virtual-assistant-hero {
+    background-position: top;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: url(../img/main-banner-mobile.png);
+    background-size: cover;
+    min-height: 25vh;
+  }
+
+  .virtual-assistant-hero {
+    min-height: 110vh;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer {
+    background-image: url(../img/mobile-buildings.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-assistant-hero {
+    background-image: url(../img/mobile-va-banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .red-line {
+    height: 8vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
+  }
+
+  /* Me quede aqui */
+  .virtual-assistant-hero h2 {
+    font-size: 5vw;
+    font-weight: 800;
+  }
+
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  .hero-left-banner ul:before {
+    content: "";
+    display: inline-block;
+    width: 3.5px;
+    background: #a4080e;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .hero-left-banner ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    list-style-position: inside;
+  }
+  .hero-left-banner ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #a4080e;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .hero-left-banner li {
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
+
+  .virtual-assistant-hero {
+    height: 100%;
+  }
+
+  /* Me quede aqui */
+
+  .caracteristics-banner img {
+    width: 12vw;
+  }
+
+  .form button {
+    font-size: 5vw;
+  }
+
+  .form-floating label {
+    font-size: 4vw;
+    padding: 0;
+  }
+  .form-floating input {
+    height: 6vh !important;
+    font-size: 3vw;
+  }
+
+  .call-to-action button {
+    font-size: 5vw;
+  }
+
+  .call-to-action h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .hero button {
+    font-size: 3vw;
+    margin-right: 15%;
+  }
+
+  .hero h1 {
+    font-size: 5vw;
+    font-weight: 900;
+  }
+
+  .hero span {
+    font-size: 5vw;
+  }
+
+  .hero p {
+    font-size: 4vw;
+    line-height: normal;
+  }
+
+  .how h2 {
+    font-size: 2.5vw;
+  }
+  
+  .how p {
+    font-size: 2vw;
+    line-height: normal;
+  }
+
+  .lead p {
+    text-align: justify;
+    font-size: 3vw;
+    padding: 0 7vw !important;
+  }
+
+  .lead h1 {
+    font-size: 4vw;
+    font-weight: 800 !important;
+  }
+
+  .lead li {
+    font-size: 3vw;
+    font-weight: 800 !important;
+  }
+
+  .lead ul {
+    padding-left: 14vw !important;
+  }
+
+  input {
+    height: 8vh !important;
+  }
+
+  .form h1 {
+    font-size: 5vw;
+  }
+
+  .form h2 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  .form-floating input {
+    height: 12vw !important;
+  }
+
+  .footer span {
+    font-size: 1.5em;
+  }
+
+  .footer h3 {
+    font-size: 5vw;
+  }
+
+  .footer p,
+  .footer span {
+    font-size: 3vw;
+  }
+
+  .footer a {
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar-nav a {
+    font-size: 1.5em;
+    padding-bottom: 1.25em;
+    text-align: center;
+  }
+
+  .navbar {
+    width: 75%;
+    margin: auto;
+  }
+
+  .navbar img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    width: 100%;
+  }
+
+  .caracteristics-banner h1 {
+    font-size: 5vw;
+  }
+
+  .caracteristics-banner h2 {
+    font-size: 4vw;
+  }
+
+  .caracteristics-banner button {
+    font-size: 4vw;
+  }
+}
+
+/*//// RESPONSIVE IMAGES ////*/
+/*//// RESPONSIVE FONTS ////*/
+@media (max-width: 500px) {
+  .red-line {
+    height: 9vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
+  }
+}
+
+@media (min-width: 750px) {
+  .virtual-assistant-hero h2 {
+    font-size: 3vw;
+    font-weight: 800;
+  }
+
+  .virtual-assistant-hero li {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .red-line {
+    height: 10vh;
+    border-radius: 10px;
+    width: 1vw;
+    background-color: #a4080e;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.1em;
+  }
+
+  .caracteristics-banner h1 {
+    font-size: 2vw;
+  }
+
+  .caracteristics-banner h2 {
+    font-size: 1.5vw;
+  }
+
+  .caracteristics-banner button {
+    font-size: 1.75em;
+  }
+
+  .virtual-assistant-hero h2 {
+    font-size: 2vw;
+    font-weight: 800;
+  }
+
+  .virtual-assistant-hero li {
+    font-size: 2vw;
+  }
+
+  .form-input {
+    height: 30%;
+  }
+
+  .footer i {
+    font-size: 3vw;
+  }
+
+  .red-line {
+    height: 3.5vh;
+    border-radius: 10px;
+    width: 0.5vw;
+    background-color: #a4080e;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2em;
+  }
+
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .hero {
+    background: url(../img/main-banner-1440.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 45vw;
+  }
+
+  .form-floating input {
+    height: 4vw !important;
+    font-size: 1vw;
+  }
+
+  .form-floating label {
+    font-size: 1vw;
+    padding: 0;
+  }
+
+  .form h1 {
+    font-size: 2vw;
+  }
+  .form h2 {
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 1.15em;
+  }
+
+  .hero {
+    background: url(../img/main-banner-1080.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+  }
+}
+
+@media (min-width: 1800px) {
+  .hero {
+    background: url(../img/main-banner-1440.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .hero-left-banner > div > div {
+    height: initial;
+  }
+
+  .hero-left-banner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 80%;
+  }
+  .hero-left-banner ul:before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    background: #a4080e;
+    position: absolute;
+    left: 4.5px;
+    top: 5px;
+    height: 100%;
+    border-radius: 40px;
+  }
+  .hero-left-banner ul li {
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 15px;
+    list-style-position: inside;
+  }
+  .hero-left-banner ul li:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #a4080e;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 10px;
+  }
+
+  .hero-left-banner h2 {
+    font-size: 3vw;
+    margin-left: 1vw;
+  }
+
+  .hero-left-banner li {
+    font-size: 2vw;
+  }
+
+
+}
+
+@media (min-width: 1920px) {
+  .hero {
+    background: url(../img/main-banner-1080.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 50vw;
+  }
+}
+
+/*//// RESPONSIVE FONTS ////*/
