@@ -1,7 +1,18 @@
 const upBtn = document.getElementById('tawkBtn-up')
 const downBtn = document.getElementById('tawkBtn-down')
-const shown = document.getElementsByClassName('widget-visible')
-var tawkPanel = document.getElementsByClassName('open')
+
+Tawk_API.onLoad = function(){
+    Tawk_API.hideWidget();
+};
+
+Tawk_API.onChatMinimized = function(){
+    Tawk_API.hideWidget();
+};
+
+function chatNow(){
+    Tawk_API.showWidget();
+    Tawk_API.toggle();
+}
 
 upBtn.addEventListener('click', ()=>{
     chatNow()
@@ -10,15 +21,3 @@ upBtn.addEventListener('click', ()=>{
 downBtn.addEventListener('click', ()=>{
     chatNow()
 })
-
-function chatNow(){
-    if(widget.length > 0){
-        widget[0].setAttribute('class', 'widget-visible')
-    }
-    if(typeof Tawk_API !== undefined){
-        Tawk_API.toggle()
-        if(tawkPanel.length > 0 && tawkPanel[0].className === 'open'){   
-            shown[0].setAttribute('class', 'tawk-widget-visible')
-        }
-    }
-}
